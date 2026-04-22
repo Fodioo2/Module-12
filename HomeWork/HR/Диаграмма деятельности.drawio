@@ -1,0 +1,310 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="bJN-TDnd-cPflg-RkYQk">
+    <mxGraphModel dx="1128" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Руководитель" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Создает заявку на вакансию" vertex="1">
+          <mxGeometry height="30" width="150" x="339" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Дорабатывает заявку" vertex="1">
+          <mxGeometry height="30" width="150" x="339" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-13" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-14" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HR-отдел" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-16" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Соответствует нормам?" vertex="1">
+          <mxGeometry height="30" width="150" x="339" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-19" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Утверждает" vertex="1">
+          <mxGeometry height="30" width="80" x="374" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-22" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-23" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="0.08" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-26" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-18" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-12" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="365" />
+              <mxPoint x="540" y="195" />
+            </Array>
+            <mxPoint x="330" y="390" as="sourcePoint" />
+            <mxPoint x="490" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-27" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
+          <mxGeometry relative="1" x="0.8088" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-29" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Публикует вакансию" vertex="1">
+          <mxGeometry height="30" width="150" x="339" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-32" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-28" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Вакансия на сайте" vertex="1">
+          <mxGeometry height="40" width="70" x="339" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Кандидаты подают заявки" vertex="1">
+          <mxGeometry height="40" width="70" x="419" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-35" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="376" y="680" as="sourcePoint" />
+            <mxPoint x="452" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-36" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-31" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="414" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="374" y="680" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="453.8" y="680" as="sourcePoint" />
+            <mxPoint x="453.8" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="HR-проверяет анкеты" vertex="1">
+          <mxGeometry height="30" width="121" x="353" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-43" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-33" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="790" as="sourcePoint" />
+            <mxPoint x="420" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-44" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-34" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="790" as="sourcePoint" />
+            <mxPoint x="420" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Анкета подходит?" vertex="1">
+          <mxGeometry height="30" width="90" x="369" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-47" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-42" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="790" as="sourcePoint" />
+            <mxPoint x="420" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-48" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-46" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="890" as="sourcePoint" />
+            <mxPoint x="414" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-51" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.0583" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Приглашают на собеседование" vertex="1">
+          <mxGeometry height="30" width="130" x="350" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Отклоняют" vertex="1">
+          <mxGeometry height="30" width="90" x="525" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-55" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-46" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-53" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="480" y="860" as="sourcePoint" />
+            <mxPoint x="470" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-56" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
+          <mxGeometry relative="1" x="0.3756" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-58" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-50" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="925" />
+              <mxPoint x="310" y="305" />
+            </Array>
+            <mxPoint x="420" y="970" as="sourcePoint" />
+            <mxPoint x="240" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Проводит первичное интервью" vertex="1">
+          <mxGeometry height="60" width="70" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-62" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-15" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-61" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-63" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-61" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="75" />
+            </Array>
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Проводит техническое собеседование" vertex="1">
+          <mxGeometry height="60" width="80" x="530" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-66" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="190" as="sourcePoint" />
+            <mxPoint x="510" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Успешно?" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-68" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-65" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-67" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="230" as="sourcePoint" />
+            <mxPoint x="690" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-69" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-67" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="60" />
+              <mxPoint x="740" y="1020" />
+            </Array>
+            <mxPoint x="640" y="340" as="sourcePoint" />
+            <mxPoint x="710" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-71" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="0.9543" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Кандидат" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-72" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-67" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-53" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="855" />
+            </Array>
+            <mxPoint x="630" y="180" as="sourcePoint" />
+            <mxPoint x="680" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-73" connectable="0" parent="dCDi-LNGyZybuKvaGAM5-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="нет" vertex="1">
+          <mxGeometry relative="1" x="0.9026" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Принимает оффер" vertex="1">
+          <mxGeometry height="30" width="106" x="362" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-76" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-70" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-75" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="960" as="sourcePoint" />
+            <mxPoint x="690" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-79" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-75" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="1070" as="sourcePoint" />
+            <mxPoint x="690" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Добавляет в базу данных" vertex="1">
+          <mxGeometry height="30" width="129.5" x="348.75" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-82" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-78" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-81" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="1170" as="sourcePoint" />
+            <mxPoint x="690" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IT-отдел" vertex="1">
+          <mxGeometry height="60" width="120" x="353.5" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-84" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-81" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-83" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="1240" as="sourcePoint" />
+            <mxPoint x="690" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="Настраивает рабочее место" vertex="1">
+          <mxGeometry height="30" width="137" x="345" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-87" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-83" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-86" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="1340" as="sourcePoint" />
+            <mxPoint x="690" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Конец" vertex="1">
+          <mxGeometry height="60" width="120" x="353.5" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="dCDi-LNGyZybuKvaGAM5-89" edge="1" parent="1" source="dCDi-LNGyZybuKvaGAM5-86" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dCDi-LNGyZybuKvaGAM5-88" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="1340" as="sourcePoint" />
+            <mxPoint x="690" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
